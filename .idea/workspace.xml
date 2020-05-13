@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe21ba-79c5-4379-ad61-15869105973c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BD/getConnextion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deleteEtudiant.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragments/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragments/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testPDO.php" beforeDir="false" afterPath="$PROJECT_DIR$/testPDO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testPDO.php" beforeDir="false" afterPath="$PROJECT_DIR$/students.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LFSI2\BD" />
       <recent name="C:\xampp\htdocs\LFSI2\exemples" />
     </key>
   </component>
@@ -53,12 +58,27 @@
       <workItem from="1587627816725" duration="209000" />
       <workItem from="1587628096610" duration="6381000" />
       <workItem from="1587722725856" duration="503000" />
-      <workItem from="1588242948250" duration="4365000" />
+      <workItem from="1588242948250" duration="5722000" />
+      <workItem from="1589361598073" duration="79000" />
+      <workItem from="1589365625348" duration="593000" />
+      <workItem from="1589371028081" duration="3196000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit création page de listing des étudiants">
+      <created>1588247338778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588247338778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit création page de listing des étudiants" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit création page de listing des étudiants" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1587640102364">
@@ -73,18 +93,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587627950005" />
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1588247338083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588247338083" />
     <state x="595" y="119" key="NewPhpClassDialog" timestamp="1588243994584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="595" y="119" key="NewPhpClassDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588243994584" />
-    <state x="604" y="332" key="NewPhpFileDialog" timestamp="1588245147149">
+    <state x="604" y="332" key="NewPhpFileDialog" timestamp="1589374450394">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588245147149" />
+    <state x="604" y="332" key="NewPhpFileDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589374450394" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1587640103793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587640103793" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1588247340941">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588247340941" />
     <state x="556" y="308" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1588246546304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -93,9 +121,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588246901493" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588244239891">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589372609674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1588244239891" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589372609674" />
   </component>
 </project>
