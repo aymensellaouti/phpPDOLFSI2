@@ -1,6 +1,5 @@
 <?php
-
-session_start();
+require_once 'authentification/isAuthenticated.php';
 require_once 'BD/getConnextion.php';
 
 // Préparation de la requete
@@ -17,7 +16,12 @@ include_once 'fragments/header.php';
 <div class="alert alert-primary">
     Liste des étudiants
 </div>
+<div>
+    <a href="addStudent.php">
+        <i class="fa fa-user-plus fa-4x" aria-hidden="true"></i>
+    </a>
 
+</div>
     <?php
         if (isset($_SESSION['success'])) {
         ?>
@@ -65,6 +69,10 @@ include_once 'fragments/header.php';
                 <td>
                     <a href="deleteEtudiant.php?id=<?= $etudiant->id?>">
                         <i class="fa fa-trash fa-2x" aria-hidden="true"></i>
+                    </a>
+
+                    <a href="studentProfile.php?id=<?= $etudiant->id?>">
+                        <i class="fa fa-user fa-2x" aria-hidden="true"></i>
                     </a>
                 </td>
             </tr>
