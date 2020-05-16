@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe21ba-79c5-4379-ad61-15869105973c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/addStudent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/spacelab_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentification/isAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handleAddStudent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handleLogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/studentProfile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fragments/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.php" beforeDir="false" afterPath="$PROJECT_DIR$/students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handleAddStudent.php" beforeDir="false" afterPath="$PROJECT_DIR$/handleAddStudent.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +73,7 @@
       <workItem from="1589361598073" duration="79000" />
       <workItem from="1589365625348" duration="593000" />
       <workItem from="1589371028081" duration="3617000" />
-      <workItem from="1589439418069" duration="8160000" />
+      <workItem from="1589439418069" duration="9568000" />
     </task>
     <task id="LOCAL-00001" summary="second commit création page de listing des étudiants">
       <created>1588247338778</created>
@@ -102,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589374666816</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="profile&#10;login&#10;logout&#10;add with bug">
+      <created>1589452331481</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589452331481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit création page de listing des étudiants" />
     <MESSAGE value="delete etudiant et fragmentation du code" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete etudiant et fragmentation du code" />
+    <MESSAGE value="profile&#10;login&#10;logout&#10;add with bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile&#10;login&#10;logout&#10;add with bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1587640102364">
@@ -126,10 +121,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587627950005" />
-    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1589374662225">
+    <state x="387" y="0" key="CommitChangelistDialog2" timestamp="1589452330260">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589374662225" />
+    <state x="387" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589452330260" />
     <state x="595" y="119" key="NewPhpClassDialog" timestamp="1588243994584">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -142,10 +137,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1587640103793" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1589374669483">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1589452355504">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589374669483" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1589452355504" />
     <state x="556" y="308" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1588246546304">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
