@@ -8,7 +8,11 @@ $sections = $response->fetchAll(PDO::FETCH_OBJ);
 include_once 'fragments/header.php';
 ?>
 <div class="container mt-5">
-    <form method="post" action="handleAddStudent.php">
+    <form
+            method="post"
+            action="handleAddStudent.php"
+            enctype="multipart/form-data"
+    >
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text"
@@ -34,8 +38,19 @@ include_once 'fragments/header.php';
                    placeholder="Enter age">
         </div>
         <div class="form-group">
+            <label for="image">Avatar</label>
+            <input
+                   type="file"
+                   class="form-control"
+                   name="image"
+                   id="image"
+            >
+        </div>
+        <div class="form-group">
             <label for="exampleSelect1">Section</label>
-            <select name="section" class="form-control" id="exampleSelect1">
+            <select
+                    name="section"
+                    class="form-control select2" id="exampleSelect1">
                 <?php
                     foreach ($sections as $section) {
                 ?>
